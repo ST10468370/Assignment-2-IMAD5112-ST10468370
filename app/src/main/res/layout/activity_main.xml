@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewQuestion"
+        android:text="Question appears here"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/ButtonTrue"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="True">
+
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonFalse"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="False">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/TextViewFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingTop="16dp"
+        android:text="Your Score: 0"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonRestart"
+        android:visibility="gone"
+        android:text="Restart"
+        android:layout_marginTop="16dp">
+
+    </Button>
+
+
+
+
+</LinearLayout>
