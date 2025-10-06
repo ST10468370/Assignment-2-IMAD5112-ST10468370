@@ -1,1 +1,2 @@
 1- Initial commit contains code for a splash screen, the structure/layout as well as an image used for the splashscreen which corrunetly does not work. next commit will code for the functions of the app and a functioning Splash screen.
+2- Second/Third commit contains the code for the entire application, as well as an image that is used for the splash screen.
